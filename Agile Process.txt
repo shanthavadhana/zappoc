@@ -1,0 +1,264 @@
+Agile model / Agile Medthodology / Agile Process
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+
+Agile is basically an Iterative and Incremental Approach/(process)
+
+Iterative - Same kind of process that we are repeatating again and again.
+            
+               What we are repeating 
+1. Getting the requirement, 
+2. Desigin, 
+3. coding 
+4. and Testing
+While we repeating the above process again and again is called iterative
+
+Incremental -  means, we will implement some features at the begining in the softwares, and keep on 
+                     adding some new features or new modules to the particular existing software.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Agile Principles
+- - - - - - - - - - - - -
+1). Customer no need to wait for long time. (we can deliver the piece of software everytime with few
+     number of functionalaties).
+2). We develop, test and release peice of software to the customer with few number of features.
+3). We can accept/accomadate requirement changes.(this is not supported in kind of other models llike 
+     waterfall or spiral model or anyother model.
+4). So with any time of software development process we can accept and accomadate the
+     requirement changes from the customer.
+5). And in agile process there will be good communication bewtween Developers, QA(Testers) and 
+     customers, business Analyst. (Good Team Communication).
+     one more thing deliver is very very faster in Agile comapring to some other models.
+
+Advantages:
+- - - - - - - - - -
+1. Reqirement changes are allowed in any stage of development (or) We can accomadate Requirement
+    changes in the middle of development.
+2. Releases will be very fast (weekly).
+3. Customer no need to wait for long time.
+4. Good communication between Team.
+5. It is very easy model to adopt in our company
+
+Disadvantages:
+- - - - - - - - - - - - -
+Less focus on design and documentation since we deliver software very faster.
+This is the only disadvantage in Agile process.
+Sometimes there is no docmentation also.
+Why because we are delivering software in short period i.e., with in week or two weeks.
+where as in someother models like waterfall model they were maintain documents like
+1. FRS Document, 
+2. Design Document, 
+3. Low-Level Design Document, 
+4. High-Level Design Document, 
+5. Test Plan Document.
+Clearcut docment will be there in other models.
+
+We cannot maintain these kind of document in Agile process, short span of time releasing piece of software.
+Documentation will take more time, so we are not maintainin document in agile.
+But we will have more number of meetings, in those meetings we will discuss the requirements.
+
+Scrum
+- - - - - - - - - - - - -
+Scrum is a framework through which we build software product by following Agile Principles.
+Scrum includes group of people called as Scrum Team, Normally contains 5-9 members.
+
+What is Scrum in Agile ?
+What is the difference between Scrum and Agile?
+
+Agile is basically a defined process model, to follow the agile process we use Scrum
+Scrum is kind of framework through which we will develop and test the software, we release the software 
+to the customer.
+
+In Scrum There are set of people will be involved, or Scrum Team.
+If we see who are all in the Scrum Team
+1. Product Owner
+2. Scrum Master
+3. Developing Team
+4. Testing or QA Team.
+In agile process all these type of people work under one Team.
+
+Roles and Responsibilities of Scrum Team:
+
+I. Product Owner:
+   1).  Product owner is the (Actual person writes the fearues) one who Define the feature of the product.
+   2).  Prioritize features according to market value  
+         ( For exapmple, He collect all the Features and Functionalties from the customer, and once he collected he will 
+         Prioritize that by comparing it with what are all the features are mainly required to the market or customer,
+         So he will adjust those features, by prioritize that.)
+   3).  Adjust feature and priority every iteration as needed.
+         If there is 100 features to be developed for the product and among 100 features he will be decide what 
+         are the feature to be implemented in first, second and third cycle as needed. 
+   4). Accept or reject work results.
+        Devoloped and Tested software have to give demo to the product owner, product owner is the first point of contact
+        to the customer and he will decide to accept or reject the features.
+
+II. Scrum Master (Leader)
+- - - - - - - - - - - - -
+	The main role is facilitating and driving the agile process
+	(He is not a Developer, not a Tester, not belonging to any manager or any management process)
+1. Scrum Master is the one who is aware of entire Agile process, facilitate the process, drive the process
+2. He knows each and every activity in Agile Process, how to drive the Agile Process.
+3. He make sure rest of the people are there in the project team like Developers, Testers etc, are properly follow
+    Agile process or not. And he facilitate if not somebody not aware of Agile process, he will give aware of Agile process.
+4. Each and Every stage from the begining of the process to untill we delivering the project to the customer, each and 
+    every step will take of Scrum Master.(most of the meeting will be conducted by Scrum Master only)
+
+III. Developer and QA:
+	Develop  and Test the Software
+Developers will design the software like unit testing, integration testing, coding.
+so these are the task done the developers.
+
+and Testers understand and writing the test cases, executing the test cases, bug reporting
+so these tasks are common
+
+Scrum Terminology
+- - - - - - - - - - - - -- - - - - - - - - - 
+User Story  : A Feature or module in a software is a User Story (in classic models we call them as functionalties or Feaures
+
+Epic: Collection of user stories.(larger requirements)user stories will be derived from epics and these will be prepared by 
+         Product Owner in form of user story or Epic
+
+Product Backlog : Contains list of user stories, prepared by the Product Owner  in the begining as excel.
+
+Sprint/Iteration : Period of time to complete the user stories, devided by the product owner and team, Usually 2-4 week of time
+(call it as 1st sprint, 2nd sprint, 3rd sprint or 1st iteration, 2nd iteration....Complete process for a feature.)
+Duration with in 2-4 weeks of time to complete the user stories(both dev and test) and deliver to the customer is Sprint/Iteration.
+
+Sprint planning meeting: Meeting conducts with the team to define what can be delivered in the sprint and duration. 
+    Two things will be main focused....
+1. How many Stories we have in the Backlog
+2. How many Stories we are going to Develop and Test during the sprint and what is the duration of the sprint(sometimes oneday
+    meeting in the begining).
+
+Sprint Backlog: List of committed stories by Dev/QA for specific sprint.
+                         Once the product owner says like having 100 stories in my product backlog, then the developer and QA will
+                         choose some of the stories for developing and testing in that particular sprint. Those list of stories
+                         called as sprint backlog, it is just like a Product backlog but only the difference is product backlog 
+contains all the stories from the product, every story will  be written in product backlog but in sprint backlog we have
+only few number of stories which were committed by the Dev and QA. So Dev and QA accepted that these are the
+Stories we are going to Develop and test within this period of sprint time is called Sprint Backlog.
+
+Scrum Meeting: Meeting conducted by Scrum Master everyday 15  mins. Called as Scrum call / Standup meeting.
+       Scrum Meeting is particularly conducted by the Scrum Master who is responsible for facilitating and 
+       Driving the process.
+                           So if there are any blockers, if there are any requirement missing or developer is not able to do 
+something and if The tester is not able to complete something, the ScrumMaster will take care of it.
+The scrum master will drag the entire status which following in the agile process. So ScrumMaster will be 
+conducting the scrummeeting everyday for 15 mins, hardly 10 to 15 mins...including product owner, developer
+and QA, Everybody will be involoving in the meeting and within the 15 mins everybody should say the status.
+That is what are all the tasks completed yesterday
+            what are the tasks planned today and
+            what are the tasts planned for tomorrow.
+and if there are any blockers, while doing their tasks, if they face any challanges, if there is any delay, we have
+to discuss within this particular meeting. This is called Scrum Meeting.
+
+And this Scrum Meeting is mainly focusing on Three Questions. Everybody in this team should answer these
+Question, and what are all the three questions? is..
+	What did you do Yesterday?
+	What will you do Today?
+	Are there any impediment /blockers in you way/tasks?
+So that we have to discuss these in Scrum Meeting. and within a sprint everyday there will be 15 mins meeting.
+We can discuss or think solution also we will think in that meeting itself.
+
+Sprint Rectrospective Meeting : Conducts Meeting after completion of every sprint. The Entire team, including
+ 			   both the ScrumMaster and the product owner should participate
+If in entire project cycle, suppose we have 5 sprint, we will have Sprint Rectrospective Meeing at the end of 
+each sprint.
+Here we will discuss about,  What went well
+		             What went well wrong and 
+                                             What are improvements we have to do in the next sprint.
+Story Point : Rough estimation of user stories, will be given by Dev & QA in the form of Fibonacci Series.
+	So from the product backlog we have all the list of stories defined by the product owner
+                and from that Dev and QA Accepted and choose some stories to be done Development
+                and test in particular Sprint. but in what basis Dev and QA will choose or pick up those stories to
+                Develop and test within a sprint is Story point.
+For Example:
+Let us say suppose Login is The Story  then
+Developer will say i need this much of time or i require this much of time to desin and develop the 
+    Story for the Login Story. and
+QA guy says i require this much of time to write the test cases and executig the test cases, finding the defects,
+    retesting the defects this much time i needed for this particular stroy.
+This is called Story Point.
+
+Fibonacci Series: Since the Byte code are like 0's and 1's we have	
+	0  1  1  2  3  5  8  13 ...
+
+So we have            0 1
+	Then 0+1=1, previously we have 0 1 and adding the answer 0+1=1
+	         1+1=2, and now we have the answers 0 1 1 2 adding last two answers
+                         1+2=3, and now we have 0 1 1 2 3 adding last two answers
+                         2+3=5, and now we have 0 1 1 2 3 5 like wise it will go on as 0 1 1 2 3 5 8 13.......
+And then now
+1 story point = 1 hour / 1 day (6 hours depends on the company)
+so Dev says 5 story point for Login and
+     QA says 3 story point for Login
+
+Login -------> Dev-5 and QA-3 ==> 8 Hours / 1 Day
+
+Burndown Chart : Shows how much work remaining in the sprint,. Maintained by the scrum master daily.
+	So after taking status from everyday scrum meeting, scrum master will calculate the story point
+like How much time the Dev and QA estimate and given and.,
+      How much time they are exactly spending
+Suppose let say  for 1 story it will be completed with in 3 days. 
+
+1 story --------> 3 days(18 hrs)
+
+and this is the given estimation at the 
+time of sprint meeting, but once i have started the feature/module it took more than 3 days and then
+what happens, automatically sprint cycle is affected and scrum master will ask why this much time has
+taken, why these many days taken for this particular sprint. Then we have to give proper reason to 
+justify that. Then how the Scrum master will know how much work completed and how much work 
+is in pending, so for that the ScrumMaster will a Excel Chart and that is called Burndown Chart.
+And Burndown chark is a kind of a graph which will prepare by the ScrumMaster.
+
+Throughout this process there are three things we need understand 
+*****************************************************************************
+1). Roles
+     First thing is what are the people who were involved in the team and what are their Roles.
+2). Artefacts 
+     Artefacts means what are all the Documents we have in the process
+     So We have,
+     Product Backlog : Contains all the user stories defined by the Product Owner
+     Sprint Backlog    : List of committed stories by Dev/QA for specific sprint.
+     Burndown Chart : Shows how much work remaining in the sprint,. Maintained by the scrum master daily.
+3). Ceremoniew
+     Sprint planning meeting, Daily Scrum Meeting, Sprint Review or Sprint Rectrospective meeting.
+
+Scrum Board:
+     Scrum Board is nothing but which contain some user stories, like we can Track and drag the stories  as 
+Stories:
+what are all the user stories accepted by the Dev and QA , and 
+ToDo:
+What are all the user stories  in ToDo section.
+In progress:
+What are all the user stories is in progress
+Testing:
+What are all the user stories  is in Testing Place
+Done:
+How many story are done:
+
+On day to day basis the Scrum Board will be Updated, So previously few years back These things
+Done Manually, by establishing one white board, make multiple sections, using some sticky notes
+paper written and move on those sticky note paper in different sections. But Nowadays in the tools
+itself we can do that, Especially JIRA Tool provide a kind of a Scrum Board, where we can move all
+the stories to one status to another status, like drag the To Do to Inprogress, and can drag Inprogress
+to Testing like that..and we can move it to the Done,
+And once the Story is completed to the Done Stage, then that Story is ready for Demo and after that
+Demo we can release the software/particular feature/Module/particular Sprint's story to the customer.
+
+Scrum Board is maintained by the team and it says how many stories we have planned, how many are
+ready for to do, how many are completed testing and how  many are ready to deliver.
+
+So Whatever the tasks or activities that we have discussed so far as part of Agile Process each Activity
+we can track using a tool which is called AGILE MANAGEMENT TOOL like JIRA is a example, JIRA is
+a tool, in which we can define the product backlog, we can write all the stories, we can plan the Sprint
+we can also desire the Story for SprintBacklog, We can create the sprint, we can track the time and
+effort, everything like we can also do some test management activities like we can write the test cases,
+we can execute the updates, we can execute the test cases, we can report the BUG. Everything we 
+can do using JIRA itself.
+
+Before this tools came into market, people are doing with Templates using Excel files and drag 
+everything manually, But Now-a-days The Toools will do Everything based upon our datas.
+
+Finally we have, 
+Definition of Ready(DOR) & Definition of Done(DoD). see Screen Shot
+

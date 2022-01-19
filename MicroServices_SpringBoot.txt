@@ -1,0 +1,163 @@
+MicroServices Testing
+***************************
+What is MicroServices and what exactly come into picture, difference between Microservices and Api Testing, 
+
+Normally in Software development, Developers follow two different approaches to develop the applications.
+One is Monolithic Approach and the Other one is Microservices Architecture.
+Microservices are coming to market by overcoming the challanges in the Monolithic Architecture.
+Both are important, depends upon your application functionality, complexity of the number of Developers,
+depend on that we can choose either Monolithic or Microservices.
+
+Monolithic vs Microservices
+*********************************
+
+Monolithic Architecture:
+Mono--->Single, lithic--->Story. so Mono lithic means everything which is related to Application all the services,
+every functionality will be provided in one single system or one single server, that is the meaning of Monolithic.
+
+So what ever the services providing by the application, all the services will be installed and deployed in single
+Server or single system.
+Here User always access the application through Browser and through HTTPS request, so user will send request
+Tomcad or some other website, all the services are run through the Tom cad and then throught HTTPS Request
+user can access some particular service from application, so all the services are embedded into one single
+server. And these services internally talk to one server i.e., one single database. as(jar file or war file).
+See Screen Shot. 
+Single point of contact we have in monolithic, every single Services are app embeded  in single component and
+Tightly coupled(Rigid). since every sevices or app  is embeded we cannot Enhance a single App, if we are going
+to enhance specific single sevice or component or feature it will affect the other services because they are 
+embeded and depend on other component. But through Hargender scaling we can redirect some of the service
+to some other Node and that node wil talk to the server.
+We need to maintain Load Balancing, if the Load is high immediately we need to redirect the services to some
+other node. 
+performance is very very slow because so many client will approach the same app at a single time.
+Single point of failure, since all the components are tightly coupled in one single server if any problem happen in
+one single component the whole server will go down.
+But still this is a good approach for smaller applications. 
+
+Microservices:
+Mainly we will split all the services into tiny parts, We will develop and deploy each and every services into single
+without depending on each other, so every service will be consider as one component, and for each component
+we will maintain seperate Database also.
+So through browser, we will invoke the particular service or component or feature or app through API Gateway.
+
+Loosely Coupled means what? 
+Suppose if we have 1000 Services or component.
+Loosely Coupled ---> if any component is to be inventory or enhance other component will not affect because
+		  each component is individually devloped and deployed.
+--Each and Every component or service is Independent in Microservices  
+--Each and Every component or service is developed by some other Developers
+and also   Parallel Development, 
+	Parallel Testing,
+	Parallel Deployment are Possible in Microservices Architecture, Because Each component is individual
+	Each component is developed by someother developer.
+so again in	Store front UI
+		Accounting	Multiple Developers are working on multiple Services Parallely
+		Inventory
+		Shipping, 
+if one compenent or services is failed
+or not working properly still user can access rest of the Service or component.
+
+So Here in Microservices Development, and also Testing, and Deployment of Services or component will
+go parallely or these things will go continously.
+Suppose if we do maintainance on some particular service, i can make down the particular serivce and rest of 
+the services will work.
+MIXED TECHNOLOGY TASK--is only possible in Microservices not possible in Monolythic Architecture
+What is Mixed Technology Task?
+	In monolythic whateever application we develop, the Whole application will follow only one 
+Technology Java, .Net, c# , whatever it is, the whole technology is developed by only one Technology.
+But in Microservices we can use multiple Technology..eg
+    Services          Language	DataBase
+Store front UI -------Java    --------   Oracle
+Accounting    -------Python   -------- MySQL
+Inventory      ------- SpringBoot-----MongoDB
+So like above Different Database, or Different Language we can use in the Microservices Architecture.Which
+ is only possible in Microservices Architecture
+
+DisAdvantages:
+1. High Complexity
+	Establishing the whole Architecture is more complex because there will so many components, 
+	We need to Establish so many Database Servers and also
+	We need to Write More number of APIs, to communicate Each other, 
+	So Maintaining the whole Architecture with multiple component in Multiple Places with in one Place
+	are very very Complex.
+2. Consistency
+	When you have these components in Multiple server with Multiple Database Obiviously there will
+	not be Porper Consistency, since internally each component will talk Each Other, similarly the
+	Database should be Consitent Accordingly...In whichever way we are performing the the Request
+	Accordingly we should get the Proper Respose from the Proper Database Tables, so this
+	Consistency will be Difficult in Microservices Architecture. (Whereas in Monolythic Every thing 
+	will be in one place, more Consistent result we will Get).
+3. Automation
+	If we have more number of Components, more number Database, More Number of Services
+	So Here Automation is also Very Difficult, Automation in the sense, it is not related to Test Automation
+	like it is related to Infrastructure Automation, 
+	For Eg., We will have multiple components in multiple servers and Databse will be in Multiple Servers
+	So these things will comunicate each other, so for example Particular component is Down Immediately
+	we need to recogonize the component and we have to do proper steps to make up that particular
+	component, we have provide some alternative instance, we need to maintain some duplicate Instance,
+	we have to immediately make that particular component, without inturrupting other component, so this
+	is very difficult to find which is running which one is down, all the services is properly in sink or not
+	which is difficult to find out manually, so we need to establish proper Automation there, so through the
+	Automation we find, which service is going down, immediately which service we need to make and
+	as a back up which is available, so all these things we can say high Availability, as soon as some
+	service is not working, some server is go down, immediately some parallelly another service instance
+	should be append running and parallely other service should make up, so do these things proper
+	automation should be in that place, then only it should happen perfectly.
+4. Debugging
+	Debugging is something difficult in the Microservicesm because we have so many machine, so many
+	component, so many databases, and if we want to comunicate one to another, and navigating to multiple
+	databases, or multiple components., so debugging task will be toughest task in Microservices
+	where as in monolythic Architecture everything will be in one single system there Debugging is easy.
+
+So if Company have small project, less number of team member, if there is no much complex having in the project
+then we can go with the monolythic Architecture.
+
+Suppose if you application is very Huge like Amazon or Flipkart, there are so many modules, so many services
+are running, if we keep on enhancement the projects, in those cases Microservice Architecture is Suitable.
+
+API are by which we will communicate between each and every services, there are multiple services wil be there
+in your Application, how those services will communicate with each other,Through API call they will communicate
+so There will be difference between API and MICROSERVICES Testing.
+
+API is what, we will send some request by passing some input and we can get some response from the Service
+What is Service means, Service means a Component.. one of the component in the Application, so API testing
+we are directly testing ther API Functionality, whether API is working properly or not by passing the request and
+and getting the response, verifing the response is properly getting or not. that is the part of API Testing.
+
+Where as in MICROSERVICES Testing,  we are Directly Testing the Service not the API, we are directly testing 
+the service, how it is working, and what is the functionality of the service, how it is going to take the inputs, and
+what is the responses it is giving, so instead of testing the API we are Directly Testing the micro Services available 
+within the Application.
+
+API is been used to communicate between the web services, so communication between the webservices
+should happen through API, 
+We will test the tiny tiny servises, webservices available inside the application is Micro Services.
+So for Micro Services there were more Tools available in the Market, especially these are come under the
+Backend Part and Testing part and API testing is also comes under the BackEnd Testing.
+
+Through Selenium we can Achieve User Interface(UI) Testing
+
+*****************************************************************************
+API, Services, Database testings comes under Backend Testing
+*****************************************************************************
+
+API Testing ---Whether getting the Input or not, giving the Response Properly or not.
+Services--- if check directly the services called microservices, test the tiny parts of the Applications is called
+                 the MicroServices. and here we need to write some code and More software Tools were available in
+	the market..like SpringBoot Toot by which we can develop the Applications also, and also we can 
+	develop API, we can do Testing on the APIs.. and for Microservices,
+	we can also develop the RestAPI s and also we can test the APIs by Using SPRINGBOOT  Frameworks.
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+

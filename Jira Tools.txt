@@ -1,0 +1,341 @@
+Jira Tool
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+1. How to use Jira Tool?
+2. How to add users/people in Jira
+3. How to create Backlog--->Epic
+4. How to create stories in Jira & add story points
+5. Creating Sprint in Jira
+6. Adding User Stories to Sprint
+7. Starting Sprint
+8. Adding Sub Task to Story
+9. Sprint cycle.
+
+
+///***Before use Jira Tool let us understand What is Jira, What is the purpose of Jira Tool.
+So we have multiple types of tools were available in the software testing industries.
+we have Bug Tracking Tools, we have Test Management Tools, Automation tools, 
+Functional Automation Tools, Perfomance Testing Tools, Secured Testing Tools,
+So there are several number of tools are there in the market, especially for testing.
+
+Tools divided in to two different parts 
+Management Tools and Automation Tools
+
+Management Tools means what is the process we are having, what are the documents
+we are preparing, what are the activities we are doing throughout the testing cycle,
+we can track all these activities in a tool instead of using Template, Word or Excel.
+They are basically comes under the Test Management Tools,
+  So what we can do in the Test Management Tools is 
+	we can define the requirements,
+	we can write the test senario, test cases, update the test execution status,
+	we can report the Bugs, and finally we can close the requirements.
+So these things are testing activities STLC. i.e., there are some tools supporting the 
+testing activities, like BUG Tracking Tools, Defect Tracking Tools  can be used instead 
+of template word excel, like defect description, priority, sevieroty, attach a screen shot,'
+i can send it to a developer. and they will take care of the Defects.***\\\
+
+Test Management Tools:
+From the begining we can track each and every activities in the Test Management Tools
+like, Writing Test Cases, Execution, BUG reporting. Everything we can track in the Test
+Management Tools.
+
+Similarly we also have
+Bug Reporting & Tracking Tools or Defect Tracking Tools:
+Apart from this we have also tools like Selenium, QTP(Test Automation Tools), whatever
+test cases we have, we can automate those through Selenium but this completely different Tools.
+Like these are the process related Tools.
+
+Again The Test Management Tools having the Features of Bug (Reporting & Tracking) Tools.
+So these are the part of STLC.
+
+So apart from these tools we have 
+
+Agile Tools
+Especially these tools are used for Tracking the Agile Tasks, Like from the Epic Stories will
+be defined by the Product Owner, and then after that we have Product Backlog, then we have
+a Sprint Plannning Meeting, and then we will select some of the stories from the Backlog and 
+we prepare the Sprint Backlog, which contains some of the stories which were commited 
+by the Dev & QA, Then we will have a sprint. Once we start the sprint it will go under different
+stages like Starting the Stories, Development, Testing, Deployment. and finally we will Close 
+the Story and give the Demo to the Product Owner and finally release to the customer.
+
+So what are the Agile Tools available in the Market 
+	--Jira, VersinOne, Teamcity......
+So now we are going to Discuss about Jira Tools
+	Each and every activity we can define, we can track in Jira Tool itself, and these tools
+will be used by product owner, developers, testers, who are is working under the team have
+access on Jira Tools.
+
+******************************************
+Jira ----> Agile Management Tool
+
+Every thing we can do within Jira Tool itself, but Jira itself is not providing any Test Mangement 
+Activities by Default, so by default in Jira we cannot define the test cases, bugs and everything.
+But we have a special plug-in called Jeffire, and if we install that particular plug-in inside the Jira
+we can do test management Activities, like we can write, define the testcases, we can update
+the status of the test cases, we can reprot the Bugs, and we can generate the test reports, everything
+we can do in the Jira Itself by using Jeffire Plug-in Along with the Jira, Apart from the Agile
+management Activities
+
+So first of all we see how to install and configure Jira Tool and we need to know and follow some
+work flow, so there is a workflow available i.e., Jira Work Flow.
+
+(Create our test cases, or we import the test cases, suppose in excel we have n number of
+testcases, we need to upload all the n number of testcases once in the Jira, instead of writing all
+the tescases we can import all the testcases inside the Jira once, and then we create a test cycle,
+then we add the particular test cases to particular test cycle, then we can execute the test cases,
+and if there is any failure we can report the Bugs, and then we will generate the Reports, so These
+are all comes under Test Management Activities. So these activities also we can do it in the Agile
+in Jira Tool and it is having a different work flow.)
+
+How to install and configure Jira Tools
+
+Link : https://www.atlassian.com/software/jira/free or go to Get it free by following below
+
+type jira in Google and search and then next page will be having
+Jira | Issue & Project Traccking Software | Atlassian, click and then we have like
+(Atlassian is a product based company and Jira software is belongs to Atlassian company)
+ATLASSIAN  Products, For Teams, Support
+if we click Products we can see
+plan, Track, & support and below that we can see Jira Software
+There we can see Get it free, we can download and install, but it is a complex process..we need
+to setup server and everything, So instead what we do is, we can create a Jira instance on Cloud.
+Cloud means what?
+They allocate some space and they will configure Jira for us and they will provide the link for Us.
+and we can use it for 30 days.
+After cliking Get it Free then we have page like
+
+EACH PRODUCT ON A FREE PLAN:
+Tick Support to 10 users or 3 agents			Concluence
+Tick Included 2 GB of storage
+Tick Offers Community Support				Jira Service
+Tick Its always free, no credit card needed 			
+							Next
+
+Then click the above mentioned Next, then we will have page like
+
+			Welcome back, (Name)
+		Work Email:
+		sign in with a different atlassian account
+Before we create the cloud instance of Jira we have provide our google account and create a new
+ instance clicksign in with a different atlassian account so now we have a page like
+
+
+(Basically they have provided JIRAS in two favours in cloud itself:
+one is - - - - - >  Free Version: 10 users are limited for / 30 days
+                 So after 30 days you want to continue with Jira or if we want increase users from 10 and
+above then we have to go for
+Another one is - - - - -> Pro (Licensed) on the same cloud or the same url but you need to pay
+                                   for Jira Tool, we need to buy some License for that.
+So now a days most of the company offering on Cloud environment directly.)
+
+			ATTLASSIAN
+		Login to your account
+			continue with Google
+provide you gmail account and click so you will have a page like
+
+in Claim your site
+	give some name  .*******.atlassian.com
+add gmail account give next then give skip again skip then it will create new JIRA Instance
+(See Screen Shots).
+			HOW TO CREATE PROJECT page
+
+*In page called Create Project in Jira instance creation, once we give the Project Name automatically
+the Key Field will create a short form of Project which we have given* say for example OP
+	So what is Key means, Whenever we create a Story, Task, Bug, or Testcases or
+Whatever you do or whatever the object you are creating with in the JIRA you have  to give a name 
+for that, and that name will also followed by a prefix, and that name is you KEY.
+
+So When I create a Story--->The Story will contain some ID----->Let us say 0001
+Then if Key is OP Then we will have ------>OP_0001.
+
+Same as the above If you create a Task, Bug, Test cases.. Then Key will be prefix for all IDs.
+
+*****And we can Chage the KEY ID by Manually******
+
+Once We Create the Project Name and Key ID by Clicking Create Then we will see the *Home Page*
+of your JIRA TOOL and close the window  *Jira Quickstart*.
+In HOme Page on the Top We can see YOUR WORK, PROJECTS, FILTRERS, DASHBOARDS, PEOPLE
+
+So now we have Successfully configuire the Cloud Instance of JIRA TOOL, By above Process we have
+not Downloaded any software, we just configure the Cloud Instance of JIRA TOOL(Free Version 30 Days).
+
+So Following above process along with screenshots every one can create their own instance of Cloud.
+
+After that we have to know the Work Flow, So what exactly we can do in the JIRA TOOL.
+We are Going to perform the Scrum Activity in the JIRA TOOLS.
+
+/*Suppose if we want to create a new project by tomorrow, then we have to go to Project Menu Home Page.
+Click the Project 
+Then Click the Create Project 
+Then it will go to page for creating a project newly.*\
+
+If we Click DASH BOARD  menu we can see what are all the project we have
+			 we can see who is the owner,
+			 How many people working on the project	
+all the information will be shown in the DASHBOARD.
+
+			HOW TO ADD USERS/PEOPLE IN JIRA
+Go to Home Page in Jira
+Clik on Settings on the top right
+In Settings we will see "User Management"
+Click User Management
+you can add Users mail id and click Invite team Members. (scroll down and see the memebers added)
+
+In scrum where we need start is from the Backlog
+Backlog---->Epic---->Stories---->Create Sprint---->Add Stories tox` the Sprint---->Start Sprint---->add Tasks
+for Every Story.
+
+			HOW TO CREATE BACKLOG
+
+If you click Backlog on left side you can see VERSIONS & EPICS Vertically.
+	There we can see no Stories  (Backlog 0 issues).
+in this click Version which is in Vertical view. 
+Then click Backlog it will show in Blue colour, and at the same time click Projects and select the project Name
+What do you want to work with,    you can see TO DO, IN PROGRESS, DONE.
+and again move the cursor to Backlog and click then we can see
+	VERSIONS Create version x in Horizantal and Epic in (Slow Process please wait for few seconds).
+	All issues same as Click EPIC
+now close VERSIONS & EPIC and then if we click VERSIONS in horizontal and go on
+
+(Issues-----> Story is one issue, Bug is one issue, Task is also one issue type.
+	  So in Jira every object we create is an issue.)
+and now we can create version and epic
+and then we have to create Stories in Jira and add Story points
+
+		Adding Story points
+
+and then we are going to create Story point by using Product Backlog Excel.
+	On top of the Home page 
+ 	Click Create menu
+	Create issue popup will open
+	in that select Project Name(eg: Opencart(OC)), Issue Type(Story), Summary.
+	and if there is any documentation about the Story to understand Better the product owner 
+	will attach the documentation by (browse) like UI Screens, Mock Screens, DFT Diagrams.
+	Add Description about the story point
+	Reporter-->email who is reporting
+	Assignee-->to whom you are assigning (All user)
+	Select Priority
+	Epic Link--> select that it show the Epic Link which we have created.
+	Click Create at the Bottom of the page
+we can create again one more story by Clicking Create another and then click Create
+so like so on we can create Story under Epic 
+
+So now we go to Backlog and we created Epic with the versions, under the Epic we can
+Stories
+
+Once you click the Story we created eg Registration inside that we can see the Story
+Points, so During the sprint planning meeting we will give story points for all Stories 
+we created with the help of Product_Backlog_Excel.(See Screenshots). 
+
+		CREATING SPRINT IN JIRA
+So What is Sprint? Sprint is cycle which contains 2 to 4 weeks inbetween period duration
+with in the Duration we have to implement few number of Stories, not all the Stoires
+
+ In home page, after creating all Backlog and Stories we can see Create Sprint above Stories.
+
+Click Create Sprint
+Empty Box for Sprint Plan will open like (Plan Your Sprint)
+Drag the Stories Which are commited by Dev and Tester one by one and put inside the Plan your Sprint Box.
+(See ScreenShot) for Sprint 1.
+Once the Stories added in Commited Sprint we can see a on right side  Start Sprint button comes.
+and  if we click the "Start Sprint" we can see a pop up for declaring Duration, Start Date, End Date, Sprint Goal Box
+fields on we fill all give and Start
+
+Now we can see the Story Board or Scrum Board, here we can see the status in TODO,  INPROGESS, DONE
+Here the Scrummaster will drag the Story to INPROGRESS, and once the story is been completed the
+Scrummaster will drag the Story to DONE Status.
+And once the Story is moved to Done then that story is Read for Demo, and Once the Product owner accept
+the Demo then the piece of software(Story) will be delivered to Customer.
+
+		ADDING TASKS IN USER STORIES
+Click the Particular Story to Add Tasks
+Eg Selecting Register story by clicking the Id which has automatically Generated (See Screen Shot)
+we can see a window we can Description, Activity and all
+in that window Click Create subtask on top then
+Create Task According to Dev and QA. (Aslo we can create Task by clicking on the top of the Home page
+by giving Epic link and Sprint number and this is very high level Task, and it can be anything not specific to
+particular story).
+Dev will have different task to complete where as QA will have some Different Task to Complete
+
+		Dev						QA
+	Understanding Requirements				Understanding Requirements
+	Designing						Writing Test Senerios
+	Coding						Writing Test Cases
+	Unit Testing					Test Case Reviews
+	Integration Testing					Test Data Preparation
+	Code Review					Test Environment Setup
+	Bug Fixes						Test Execution
+	Team Meetings					Re-Test Bugs
+	Any other						Team Meetings
+							Automation
+							Set up Evironment and Install Build
+							Anyother
+Once above Task is created for Dev and QA
+ then Scrum master will take care of moving Tasks to particular status, 
+and once all the tasks are completed 
+Click on Move to Done button and give Done inside the Story Window which is completed.
+
+This is how we do the Scrum Activities Inside the Jira Tools.
+Apart from this we can also do the Test Management Life Cycle
+
+     			 TEST MANAGEMENT ACTIVITIES
+
+We write the Test Cases, we can create the Test Cases, We can add the Test Cases to the Particulare
+Test Cycles, we can update the execution Status, we can report the Bugs, So these things are comes 
+under Test Management Activities.
+
+By default Jira will not provide you These above Options for that we have to install a new Plug-In
+Called  ----------->   ZEPYRE
+
+1). TEST CASES 
+     Normally in Test Management Activities we will write the TEST CASES, or suppose u have already written
+     the test cases in Excel Sheet or Excel File, we can directly import all the test cases into JIRA
+	So we can write our own test cases into Jira or we can import the test cases from JIRA.
+2). TEST CYCLE
+     We create the TEST CYCLE, What is Test Cycle Means? We can say Regression Test cycle or Functional
+     Test Cycle or Sanity Test Cycle, So in Each cycle we will have some number of Test Cases and Execute
+     those Test Cases in that Particular Cycle and then we Report the Bugs if there is any mismatch between 
+     Expected and Actual. 
+     (So we create the Test Cases, Create the Test Cycle, once the Test Cycle is started we will execute the test
+     Cases manually and then we will update the Test Cases)
+3). UPADATE THE TEST CASES PASSES/FAILED/BLOCKED
+4). REPORT THE BUGS
+5). AND THEN WE GENERATE THE REPORTS
+
+	And these are the activities we do as part of  Test Management.
+So if we click on Create in Home page We should see Test in Issue Type for that we have to install ZEPYRE
+Plug-In.
+
+for that Click on App menu in Home Page
+the clikc Find New Apps, So inside this Find new Apps we have to Search for ZEPYRE
+Inside the Search Bok type Zepyre then we will get "Zepyre for Jira- Test Management" Click that
+Install Success
+and See Tast in Create in Home and See Zepyre in Home page.
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+

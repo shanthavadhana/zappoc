@@ -1,0 +1,164 @@
+API Testing Using Postman Tool
+***************************************
+Before starting with Postman need to know some Fundmentals like...
+What is API?
+What is Web Service?
+What are the difference between API and WebService?
+and need to know what is API testing and what we have to test exactly in API.
+
+Postman is basically a Tool, a UI Tool anybody can perform with this tool, no need to know any
+Program for this tool.
+
+What is client and Server? (See Screen shot).
+******************************************************
+Client is a computer Hardware device
+Server is a Storage Area...
+
+If we go for any web application, what exactly you will do as a user, 
+
+Opening a Browser--->send some URL----->Accordingly we will get some Respose
+
+So once you provided the URL in the Browser, that URL will sent to the Server and Whatever Data
+Which is available in the server and same Data will be Getting as a Response, and you can see the
+Data in Browser.
+	As a user we know how to pass the URL in Browser say for Ex. Google
+	If we pass the URL google.com and we are getting the Response as Google page will 
+Open and we dont know Where the Google page is coming from, What exactly happening in the
+Background, So as a Client we are Sending some URL(google.com) and From Server the Response 
+is coming back as Google Page. 
+	So server is sending the Request based upon the URL we are Sending. And server is not
+going to send the request in the same way which we seeing a Google Page(we will  just see the UI
+here in google Page. The server will send the reponse in some other different formats, sometimes it
+will be in XML format or HTML format or JASON format, depends up on i append artech technologies
+it will send the report, if we right click the Google Home page and Select View Source page we 
+can see n number of HTML code which is sent by the Server, as a user we cannot understand the 
+HTML Code which very complicate do understand. The response will be interpreted by the Browser,
+So the Browser has the Capabitlity to INTERPRET the Statement i.e., the HTML Code Statement will
+be Interpreted and present the same data as UI ie., in the user understandable format, and that is the
+Technology used by the Browser itself.
+
+So Every Broswer has the Capability to INTERPRET the Server which is sent by the Server.
+
+Client/Server Architecture
+*******************************
+ Different Architecture we have in Client/Server
+1 Tier Architecture, 2 Tier Architecture, 3 Tier Architecture
+
+1 Tier Architecture: 
+	(The Data and Application, Everything will be there in the One Machine)
+If we take any word, excel, notepad and saving any data we don't need any server any network this 
+is called 1 Tier Architecture. 
+
+2 Tier Architecture:
+	(Client and Server will be divided into two parts, the Client will be there in One System and
+the Database Server will be there in Another System, and not only one Client, there are multiple
+Clients will be Connected and accessing to the Same Database Server and They can do Operations).
+
+	For this we don't need Internet Concepts, Just we need a LAN, Banks will maintain these
+Kind of Architecture Internally.	
+In this we have a Client Machine and we have a Database Server Tier, here we have two components.
+Here as a Client i am opening some form or some Application whatever i want, and once you save
+this, or once you update, insert or delete or whatever operations are doing through client, that 
+actual operation will be happen in the Database.
+
+3 Tier Architecture:
+Basically if we take any web applications nornally three things will be there 
+1. Client (Presentation Layer)
+2. Business Logic(Application Layer or Web Layer)
+3. Database(Data Layer)
+	So whenever the Web Applications came into Market From then 3 Tier Architecture
+So in 3 tier Architecture we have Client n number of browsers, n number of clients, and Database will
+be there where Web pages or datas will be stored, So Between Client and The Server there will be
+another Layer or component called as BUSINESS LOGIC Layer.  In the Client side we can call it as
+a presentatio n layer, Client Layer, or Middle Layer. 
+	So from the Client Layer we are sending the Request, and as soon as we sent the 
+request through Browser Corresponding Business Logic will be executed, so the Business Logic
+will contain the Business logics in form of the Programms and Depends upon your type of request
+corresponding Business Logic will be Triggered, and that will pass your request to the server, and 
+server will process the requested data and again Business Logic will get the Data and Provide the
+Response to the Client.
+	This Business Logic will act as a Mediator in between the Client and Server, and this is
+the Main component, even API Testing is depends upon this Business Logic Component, and all
+Web Applications will follow this concept. we can also call it as Application Server or Web Server
+(Layer). So 
+1. Client--(Presentatin Layer) --->HTML5, JavaScript, CSS-->Scripting Languages
+2. Business Logic--
+    (Application Layer or Web Layer)-->Java, .NET, C# Phython, C++--->Programming Languages
+3. Database(Data Layer)
+    MySQL, Oracle, PostgreSQL, SQL Server, MongoDB--->Database Languages.
+
+Instead of Testing GUI (Grapical User Interface) or UI (User Interface), if i Passess Input to the 
+Business Logic Directly without using any UI, Whatever request send through UI  If is send that 
+Request through Business Logic Directly and BL will process the Request to the Server and Getting
+the Response in Business Logic is called as the API Testing or Web Service.
+	So the Business Logics will be (Implemented) by having n number of programmes and 
+all these programmes collectively we can call them as the APIs.
+
+Application Programming Interface (API). API is nothing but a collection of Programme.
+
+If we Complete 80% of Api testing in BL itself then we dont need to do more testing in GUI Tesing.
+
+Presentation Layer----->GUI Testing, (Selenium)
+Business Layer---------->API Testing, (Postman)
+Database Layer--------->Database Testing.(Tables Level, Connection of the Tables, Table Size,
+                                         Table Data, How many columns, rows we have, Updatation,  Deletion,
+		     Insertion all these things will be verify as part of Database Testing.)
+ Whenever the developer Developed the Application, then first we will test them in the Local Environment.
+So the Developer will provide some APIs to you, you will test those APIs in your QA environment, once 
+you tested the APIs you will move those APIs to the Production, at the end of the testing life cycle, so you
+are going to move those APIs into the Production servers, there same APIs will be available on the web,
+and then we will call Them as the WEB SERVICE, So all Webservices are APIs only, But All APIs are not
+WEB SERVICE. Because i have implemented One API, i am just Testing it, i am not putting that API on WEB.
+so Just it is an API but not WEB SERVICE. After moving the API on WEB, then we will call that API as WEB
+SERVICE. if the API is available on the WEB then only it will say as an WEB SERVICE.
+
+Types of Web Services
+There are mainly two types of web services.
+--SOAP web services(Simple Object Access Protocol)--XML--Very Slow process
+--RESTful web services.(Representational State Tranfer)--HTML and JASON---Very Fast
+
+API Testing with Postman
+- - - - - - - - - - - - - - - - - - - - 
+
+http requests	-	GET	(Select)
+			POST	(Create)
+			PUT	(Update)
+			DELETE	(Delete)
+
+https://reqres.in/api/users?page=2 (URL)
+https://reqres.in------------------->Domain
+/api/users	        ------------------->Path Parameters
+page=2	        ------------------->Query parameters
+
+https:reqres.in/api/users?page=2
+	URL(Uniform Resource Locator)
+	URI(Uniform Resource Identifier)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
