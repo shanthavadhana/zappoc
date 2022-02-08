@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-02T16:22:24 IST" name="Login Suite" finished-at="2022-02-02T16:23:50 IST" duration-ms="85305">
+    <groups>
+    </groups>
+    <test started-at="2022-02-02T16:22:24 IST" name="BothCorrect" finished-at="2022-02-02T16:22:49 IST" duration-ms="24605">
+      <class name="loginTestCases.BothCorrect">
+        <test-method signature="loginWithBothCorrect(java.lang.String, java.lang.String)[pri:0, instance:loginTestCases.BothCorrect@693fe6c9]" started-at="2022-02-02T16:22:24 IST" name="loginWithBothCorrect" finished-at="2022-02-02T16:22:49 IST" duration-ms="24549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBothCorrect -->
+      </class> <!-- loginTestCases.BothCorrect -->
+    </test> <!-- BothCorrect -->
+    <test started-at="2022-02-02T16:22:49 IST" name="Both_In_Correct" finished-at="2022-02-02T16:23:16 IST" duration-ms="26586">
+      <class name="loginTestCases.Both_In_Correct">
+        <test-method signature="loginWithBothInCorrect(java.lang.String, java.lang.String)[pri:0, instance:loginTestCases.Both_In_Correct@2b48a640]" started-at="2022-02-02T16:22:49 IST" name="loginWithBothInCorrect" finished-at="2022-02-02T16:23:16 IST" duration-ms="26578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBothInCorrect -->
+      </class> <!-- loginTestCases.Both_In_Correct -->
+    </test> <!-- Both_In_Correct -->
+    <test started-at="2022-02-02T16:23:16 IST" name="CorrectPassword" finished-at="2022-02-02T16:23:33 IST" duration-ms="17202">
+      <class name="loginTestCases.CorrectPassword">
+        <test-method signature="loginWithCorrectPassword(java.lang.String, java.lang.String)[pri:0, instance:loginTestCases.CorrectPassword@3d5c822d]" started-at="2022-02-02T16:23:16 IST" name="loginWithCorrectPassword" finished-at="2022-02-02T16:23:33 IST" duration-ms="17197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectPassword -->
+      </class> <!-- loginTestCases.CorrectPassword -->
+    </test> <!-- CorrectPassword -->
+    <test started-at="2022-02-02T16:23:33 IST" name="CorrectUserName" finished-at="2022-02-02T16:23:50 IST" duration-ms="16676">
+      <class name="loginTestCases.CorrectUserName">
+        <test-method signature="loginWithCorrectUserName(java.lang.String, java.lang.String)[pri:0, instance:loginTestCases.CorrectUserName@429bffaa]" started-at="2022-02-02T16:23:33 IST" name="loginWithCorrectUserName" finished-at="2022-02-02T16:23:50 IST" duration-ms="16672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectUserName -->
+      </class> <!-- loginTestCases.CorrectUserName -->
+    </test> <!-- CorrectUserName -->
+  </suite> <!-- Login Suite -->
+</testng-results>
